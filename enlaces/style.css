@@ -1,0 +1,217 @@
+body{
+    font-family: 'Playfair Display', serif;
+    background-image: url(img/webcopia.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.header{ /*aquí hacemos referencia al header que tenemos creado en index*/
+    background: #10608c;  /*desde aquí le damos formato al fondo. nos ayudamos de la página coolors.co*/
+    width: auto;
+    height: 200px;
+    opacity: 65%;
+}
+
+.header .content{/*se pone content porque esta dentro del propio header*/
+    width: auto;
+    height: auto;
+    position: absolute;
+    left: 5%;
+    font-size: 40px;
+    
+}
+
+.header .content .p-1{/*se pone content porque esta dentro del propio header y a su vez dentro el p-1*/
+    color:white;
+    font-family: 'Merriweather', serif;
+    font-size: 40px;
+    
+}
+
+.header .content .p-2{/*se pone content porque esta dentro del propio header y a su vez dentro el p-1*/
+    color:white;
+    font-family: 'Merriweather', serif;
+    font-size: 25px;
+    
+}
+
+.header .img{
+    position: absolute;
+    top: 5%;
+    right: 8%;
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    
+    overflow: hidden;
+}
+
+.header .img img{
+    width: 180px;
+    height: 180px;
+}
+
+.info{
+    
+    background: #10608c;
+    color:white;
+    
+
+}
+
+
+.info2{
+    width: 100%;
+    height: auto;
+    background: #054567;
+    color:white;
+    list-style-image: url('img/clasificacion.png');
+
+}
+
+.tituloseccion{
+    
+    background:#054567;
+    color:white;
+    padding:0px;
+    font-size: 22px;
+    text-align: left;
+    border-bottom: 1px white solid;
+    
+
+    
+}
+
+.info .tituloinfo{
+    width: 100%;
+    height: auto;
+    background: #10608c;
+    color:white;
+    margin: auto;
+    margin-top: 900px;
+    font-size: 15px;
+    text-align: center;
+    display: inline;
+    padding: auto;
+    margin: 20px;
+   
+
+}
+
+.info .datospersonales{
+    width: 100%;
+    height: auto;
+    background: #10608c;
+    color:white;
+    margin: auto;
+    margin-top: 900px;
+    font-size: 20px;
+    text-align: center;
+    display: inline;
+    margin-left: 20px;
+    margin: 20px;
+    
+    
+}
+
+.tabla{
+
+    border-collapse:separate;
+    width: 100%;
+    background: #10608c;
+    color: #A1E5AB; 
+    font-family: 'Merriweather', serif;
+    font-size: 18px;
+    text-align: center;
+    opacity: 75%;
+
+
+    
+
+}
+    th{ 
+        border: 2px solid #021b28;
+        }
+    td{
+        border: 1px solid #054567;
+        }
+
+
+
+.link {color: brown;}
+.link:visited {color: rgb(10, 0, 32);}
+.link:hover {font-family: monospace;}
+.link {text-decoration:none;}
+
+.footer2{
+
+    color:blue;
+    text-align:center;
+}
+
+
+.menu{
+ 
+        width: 100%;
+        background: #002e47;
+        color: white; 
+        font-family: 'Roboto', sans-serif;
+        margin-top: 3%;
+        text-align: center;
+        border: none; 
+        border-collapse:none;
+}
+
+.tabla2{
+    background: #054567;
+    color: white;
+    max-width: 50%;
+}
+
+.link2 {color: #A1E5AB;}
+.link2:hover {font-size: 120%; color:lightseagreen; cursor:pointer}
+.link2 {text-decoration:none;}
+
+.imagen2{
+    
+    left:50%;
+   
+    height: 100%;
+    position: absolute;
+}
+
+.portfolio{
+
+    left: 55%;
+    position: absolute;
+    padding: 1%;
+
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    background-color: #04517b;
+    text-align: center;
+    width: 100%;
+    margin-top: 2px;
+}
+
+nav a{
+    color: white;
+    padding: 1px;
+    text-decoration: none;
+    width: 100%;
+    color:rgb(255, 255, 255); cursor:pointer
+    
+}
+
+nav :hover{
+    cursor: pointer;
+    padding-bottom: 10px; 
+    color: #A1E5AB;
+    font-size: 122%; color:rgb(255, 255, 255); cursor:pointer
+}
