@@ -69,6 +69,7 @@ body{
     background: #054567;
     color:white;
     list-style-image: url('img/clasificacion.png');
+    padding-bottom: 15px;
 
 }
 
@@ -95,7 +96,6 @@ body{
     font-size: 15px;
     text-align: center;
     display: inline;
-    padding: auto;
     margin: 20px;
    
 
@@ -127,6 +127,7 @@ body{
     font-size: 18px;
     text-align: center;
     opacity: 75%;
+    padding-bottom: 15px;
 
 
     
@@ -153,22 +154,11 @@ body{
 }
 
 
-.menu{
- 
-        width: 100%;
-        background: #002e47;
-        color: white; 
-        font-family: 'Roboto', sans-serif;
-        margin-top: 3%;
-        text-align: center;
-        border: none; 
-        border-collapse:none;
-}
-
 .tabla2{
     background: #054567;
     color: white;
     max-width: 50%;
+    padding-bottom: 15px;
 }
 
 .link2 {color: #A1E5AB;}
@@ -188,6 +178,7 @@ body{
     left: 55%;
     position: absolute;
     padding: 1%;
+    
 
 }
 

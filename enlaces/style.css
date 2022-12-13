@@ -66,9 +66,10 @@ body{
 .info2{
     width: 100%;
     height: auto;
-    background: #054567;
+    background: #054569;
     color:white;
     list-style-image: url('img/clasificacion.png');
+    bottom: 35px;
 
 }
 
@@ -214,4 +215,10 @@ nav :hover{
     padding-bottom: 10px; 
     color: #A1E5AB;
     font-size: 122%; color:rgb(255, 255, 255); cursor:pointer
+}
+
+.lista{
+
+    margin-top: 15px;
+
 }
