@@ -121,7 +121,7 @@ body{
     border-collapse:separate;
     width: 100%;
     background: #10608c;
-    color: #A1E5AB; 
+    color: #ffffff; 
     font-family: 'Merriweather', serif;
     font-size: 18px;
     text-align: center;
@@ -141,7 +141,7 @@ body{
 
 
 
-.link {color: brown;}
+.link {color: rgb(48, 255, 90);}
 .link:visited {color: rgb(10, 0, 32);}
 .link:hover {font-family: monospace;}
 .link {text-decoration:none;}
@@ -166,10 +166,11 @@ body{
 
 .imagen2{
     
-    left:50%;
-   
-    height: 100%;
+    left:60%;
+    bottom: 10px;
     position: absolute;
+    top: 274px;
+
 }
 
 .portfolio{
